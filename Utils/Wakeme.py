@@ -8,7 +8,7 @@ import glob
 from random import shuffle
 
 folder = '/media/HP v215b/'
-alarm_time = [22,47]
+alarm_time = [7,30]
 if os.path.exists(folder):
 	folder = folder+"*.mp4"
 else:
